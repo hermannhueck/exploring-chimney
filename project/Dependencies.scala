@@ -5,6 +5,8 @@ object Dependencies {
   import Versions._
 
   lazy val chimney     = "io.scalaland"  %% "chimney"      % chimneyVersion
+  lazy val chimneyCats = "io.scalaland"  %% "chimney-cats" % chimneyVersion
+  lazy val catsCore    = "org.typelevel" %% "cats-core"    % catsVersion
   lazy val munit       = "org.scalameta" %% "munit"        % munitVersion
   lazy val slf4jApi    = "org.slf4j"      % "slf4j-api"    % slf4jVersion
   lazy val slf4jSimple = "org.slf4j"      % "slf4j-simple" % slf4jVersion
@@ -20,6 +22,8 @@ object Dependencies {
 
   lazy val compilerDependencies = Seq(
     chimney,
+    chimneyCats,
+    catsCore,
     munit,
     slf4jApi,
     slf4jSimple

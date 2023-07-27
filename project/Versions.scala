@@ -9,6 +9,7 @@ object Versions {
 
   // 3rd party libraries
   val chimneyVersion = "0.7.5"
+  val catsVersion    = "2.9.0"
   val munitVersion   = "0.7.29"
   val slf4jVersion   = "2.0.7"
 
